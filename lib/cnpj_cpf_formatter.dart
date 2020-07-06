@@ -7,6 +7,10 @@ enum EDocumentType {
   CPF,
 }
 
+/// This formatter gets the user input and puts de mask by
+/// the document type.
+///
+/// [eDocumentType]: Choose the document type to formatting
 class CnpjCpfFormatter extends TextInputFormatter {
   final EDocumentType eDocumentType;
 
@@ -53,8 +57,6 @@ class CnpjCpfFormatter extends TextInputFormatter {
         _selection = _workingValue.length;
       }
     }
-
-    print(_workingValue.length);
     return TextEditingValue(
       text: _workingValue,
       composing: TextRange(
