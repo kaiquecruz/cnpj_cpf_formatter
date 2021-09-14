@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cnpj_cpf_formatter/cnpj_cpf_formatter.dart';
+import 'package:cnpj_cpf_formatter_nullsafety/cnpj_cpf_formatter_nullsafety.dart';
 
 void main() => runApp(App());
 

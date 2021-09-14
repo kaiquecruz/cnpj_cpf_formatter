@@ -36,15 +36,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.0"
-  cnpj_cpf_helper:
+  cnpj_cpf_helper_nullsafety:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: e7c3edaedf9ec785d676688d50587079eea127bf
-      url: "https://github.com/kaiquecruz/cnpj_cpf_helper.git"
-    source: git
-    version: "1.0.8"
+      name: cnpj_cpf_helper_nullsafety
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.1"
   collection:
     dependency: transitive
     description:

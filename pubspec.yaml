@@ -1,6 +1,6 @@
-name: cnpj_cpf_formatter
+name: cnpj_cpf_formatter_nullsafety
 description: This library gives you a formatter to CNPJ or CPF documents. Enjoy it!
-version: 1.1.0
+version: 1.1.1
 homepage: https://github.com/evandrofuhr
 repository: https://github.com/evandrofuhr/cnpj_cpf_formatter
 
@@ -10,8 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cnpj_cpf_helper: 
-    git: https://github.com/kaiquecruz/cnpj_cpf_helper.git
+  cnpj_cpf_helper_nullsafety: ^1.1.1
 
 dev_dependencies:
   flutter_test:
