@@ -1,4 +1,4 @@
-Fork from, [cnpj_cpf_formatter][tracker2] to null safety.
+Fork from, [cnpj_cpf_formatter][tracker2], to null safety.
 
 This library helps with CNPJ and CPF formatter. Both of them are brazilian a documentation where CNPJ is a business document and CPF is a person document.
 
